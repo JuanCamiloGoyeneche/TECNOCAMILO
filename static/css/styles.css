@@ -1,0 +1,120 @@
+.hero {
+    background-image: url('static/Images/FONDO.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    position: relative;
+    color: #ade4ec;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 120px 0;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* css recomendaciones */
+
+#recommendations {
+    background-color: #0b547c;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #ffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1c707c;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+/*footer*/
+
+footer {
+    background-color: #0b547c;
+    color: white;
+    padding: 20px 0;
+}
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/* Animaciones */
+.fade-in {
+    animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Css mensaje */
+
+#contact-response {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ade4ec;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .response-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .response-content h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .response-content p {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .response-content button {
+    margin-top: 20px;
+  }
